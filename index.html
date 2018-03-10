@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <head>
+  <title>Pomodoro</title>
+  <link  rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></script>
+<link href='https://fonts.googleapis.com/css?family=Rubik+Mono+One:400,300,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Anton:400,300,700' rel='stylesheet' type='text/css'>
+<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment.js"></script>
+
+</head>
+
+<body>
+
+
+  <div class="page-header">
+    <div align="center"><h1>Pomodoro Clock</h1>
+      <img src="http://pomodoro.trevorlandau.net/images/pom.png">
+    </div>
+
+
+    <div class="main"  align="center">
+      <div class="main-bt">
+        <h5>Break Time (Minutes)</h5>
+
+        <button id="breakIncrease" type="button" class="btn btn-sm">
+          <i class="fa fa-plus" aria-hidden="true"></i>
+        </button>
+        <div id="breakNumber">5</div>
+        <button id="breakDecrease" type="button" class="btn btn-sm">
+          <i class="fa fa-minus" aria-hidden="true"></i>
+        </button>
+      </div>
+      <div class="main-st">
+        <h5 style="float: right">Session Time (Minutes)</h5><br />
+        <button id="sessionIncrease" type="button" class="btn btn-sm">
+          <i class="fa fa-plus" aria-hidden="true"></i>
+        </button>
+        <div id="sessionNumber">25</div>
+        <button id="sessionDecrease" type="button" class="btn btn-sm">
+          <i class="fa fa-minus" aria-hidden="true"></i>
+        </button>
+      </div>
+      <div class="btn-grp">
+        <button id="startBtn" class="btn btn-success">Start</button>
+        <button id="stopBtn" class="btn btn-danger">Stop</button>
+        <button id="resetBtn" class="btn btn-primary">Reset</button>
+      </div>
+    </div>
+    <br />
+    <br />
+
+    <div>
+      <div align="center" id="countDown">25m 0s</div>
+      <div class="col-md-12">
+        <div class="container">
+          <div class="well well-lg">
+            <div class="progress">
+              <div id="pb" class="progress-bar progress-bar-success" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        </body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

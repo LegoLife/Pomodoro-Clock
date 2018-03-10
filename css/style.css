@@ -1,0 +1,21 @@
+img{
+  height:10%;
+  width:10%;
+}
+div{
+  font-family:'Anton';
+}
+div.main{
+  padding-top:10%;
+  padding-left: 10%;
+  padding-right:10%;
+}
+div.main-bt{
+  float:left;
+}
+div.main-st{
+  float:right;
+}
+h1{
+  font-family: 'Rubik Mono One', sans-serif;
+}

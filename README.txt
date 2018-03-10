@@ -1,0 +1,1 @@
+A timer for pomodoros https://en.wikipedia.org/wiki/Pomodoro_Technique
